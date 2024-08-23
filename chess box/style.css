@@ -1,0 +1,42 @@
+.box{
+    height: 499.5px;
+    width: 499.5px;
+    border: 3px solid black;
+    margin: auto;
+
+}
+
+.black{
+    background-color: black;
+    height: 50.7px;
+    width: 50.7px;
+    float: left;
+}
+
+.white{
+    background-color: white;
+    height: 50.7px;
+    width: 50.7px;
+    float: left;
+}
+
+
+.icon1{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 9px 00 00 9px;
+    box-sizing: border-box;
+
+
+}
+
+.icon{
+    color: black;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 9px 00 00 9px;
+    
+    
+
+}
+

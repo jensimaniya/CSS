@@ -1,0 +1,50 @@
+.box
+{
+    background:url(./image/big1.jpg);
+    width: 90%;
+    height: 80vh ; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid red ;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    
+   
+}
+
+.title{
+    color: beige;
+    font-size: 50px;
+    text-indent: 100px;
+}
+
+.preg{
+    font-size: x-large;
+    color: #1F316F;
+    text-indent: 100px;
+
+}
+
+.p1{
+    background:url(./image/p1.png);
+    height: 55vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.pr{
+    font-size: x-large;
+    color: #387F39;
+    text-align: center;
+}   
+
+.j1{
+    font-size: x-large;
+    color: #1F316F;
+    text-indent: 100px;
+
+}

@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Oswald:wght@200..700&display=swap');
+
+.jensi{
+    font-size: 32px;
+    font-weight: 600;
+    color: blueviolet;
+    text-align: left;
+    font-family: "Grey Qo", cursive;
+    text-transform: uppercase;
+    line-height: 42px;
+    word-spacing: 5px;
+    text-decoration: underline;
+    text-indent: 100px;
+}
+
+
+.nidhi{
+    font-size: 32px;
+    font-weight: 600;
+    color: blueviolet;
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    line-height: 42px;
+    word-spacing: 5px;
+    text-decoration: underline;
+    text-indent: 100px;
+}
+

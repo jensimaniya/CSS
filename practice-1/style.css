@@ -1,0 +1,13 @@
+.image{
+    background: url(./image/p1.png);
+    background-position: left;
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
+
+.per{
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: right ;
+}
