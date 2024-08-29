@@ -1,0 +1,129 @@
+.form{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+    top: 150px;
+    left: 35%;
+    border-radius: 20%;
+    position: relative;
+    border: 6px solid black;
+}
+
+.form:hover{
+    background-color: blue;
+    cursor: pointer;
+    border: 8px solid red;
+}
+
+.us{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.us1{
+    position: absolute;
+    top: 31%;
+    left: 40%;
+    cursor: pointer;
+}
+
+.em{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+.em1{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    cursor: pointer;
+}
+
+.ps{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.ps1{
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    cursor: pointer;
+}
+
+.bu{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+}
+
+.us:hover{
+    color: red;
+}
+
+.em:hover{
+    color: red;
+}
+
+.ps:hover{
+    color: red;
+   
+}
+
+.us1:hover{
+    border: 3px solid red;
+    background-color: aquamarine;
+    border-radius: 20%;
+}
+
+.em1:hover{
+    border: 3px solid red;
+    background-color: aquamarine;
+    border-radius: 20%;
+}
+
+.ps1:hover{
+    border:3px solid red;
+    background-color: aquamarine;
+    border-radius: 20%;
+}
+
+.bu:hover{
+    border: 3px solid red;
+    border-radius: 20%;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.ic{
+    position: absolute;
+    top: 15%;
+    left: 36%;
+    font-size: 40px;
+}
+
+    
+.jensi{
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 70%;
+    bottom: 10%;
+    right: 70%;
+    position: absolute;
+    left: 20%;
+}
+
+.jensi1{
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 70%;
+    top: 20%;
+    right: 10%;
+    position: absolute;
+
+}
