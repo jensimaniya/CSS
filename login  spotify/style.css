@@ -1,0 +1,125 @@
+.header{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+}
+
+.icon{
+    color: aliceblue;
+    padding: 5px;
+}
+
+.di{
+    height: 600px;
+    width: 500px ;
+    background-color: black;
+    margin: auto;
+    position: relative;
+}
+
+.h1{
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.g{
+    height: 40px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 100px;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;  
+    top: 100px;
+    left: 100px;
+ 
+}
+
+.f{
+    height: 40px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 100px;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;  
+    position: absolute;  
+    top: 150px;   
+    left: 100px;
+} 
+
+.a{
+    height: 40px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 100px;
+    color: aliceblue;
+    text-align: center;
+    margin: auto; 
+    position: absolute; 
+    top: 200px;  
+    left: 100px;    
+} 
+
+.g1{
+    padding: 10px;
+}
+
+.f1{
+    padding: 10px;
+}
+
+.a1{
+    padding: 10px;
+}
+
+form{
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    color: aliceblue;
+}
+
+.button{
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 100px;
+    color: black;
+    text-align: center;
+    position: absolute;  
+    top: 150px;
+    left: 0.2px; 
+    text-align: center;
+    background-color: green;
+}
+
+.p{
+    color: aliceblue;
+    text-decoration: underline;
+    position: absolute;
+    top: 500px;
+    right: 180px;
+}
+.p1{
+    color: aliceblue;
+    text-decoration: underline;
+    position: absolute;
+    top: 540px;
+    left: 100px;
+}
+
+.head{
+    position: absolute;
+    color: white;
+    top: 100px;
+
+
+}
+
+.ic{
+    color: green;
+}
+
