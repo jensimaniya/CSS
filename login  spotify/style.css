@@ -1,3 +1,8 @@
+.body{
+    background: linear-gradient(grey, white,black);
+}
+
+
 .header{
     background-color: black;
     height: 40px;
@@ -5,7 +10,7 @@
 }
 
 .icon{
-    color: aliceblue;
+    color: green;
     padding: 5px;
 }
 
@@ -18,7 +23,7 @@
 }
 
 .h1{
-    color: aliceblue;
+    color: green;
     text-align: center;
     padding: 20px;
 }
@@ -121,5 +126,12 @@ form{
 
 .ic{
     color: green;
+}
+
+.icon1{
+    color: black;
+    position: absolute;
+    top: 63%;
+    right: 47%;
 }
 
