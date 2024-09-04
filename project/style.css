@@ -1,0 +1,206 @@
+/* index.html*/
+/* .header{
+    height: 80px;
+    width: 100%;
+} */
+
+
+
+
+.head{
+    color: brown;
+    text-align: left;
+}
+
+.head:hover{
+    color: rgb(217, 210, 210);
+}
+
+.banar{
+    background: url(./image/banner\ img.jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.h1{
+    color: aliceblue;
+    font-size: 60px;
+    position: absolute;
+    right: 20%;
+    bottom: 55%;
+    text-decoration: none;
+}
+.h1:hover{
+    text-decoration: underline;
+}
+
+.p{
+   position: absolute;
+   font-size: 30px;
+   bottom: 40%;
+   right: 4%;
+   color: brown;
+}
+
+span{
+    color: red;
+}
+
+.h{
+    font-size: 50px;
+    text-align: center;
+}
+
+.buton{
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid red;
+    background-color: black;
+    color: aliceblue;
+}
+
+.buton:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 5px solid green;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.pre{
+    font-size: 32px;
+    color: lightskyblue;
+}
+
+
+.pre:hover{
+    color: blue;
+}
+
+
+.a{
+    color: black;
+    font-size: 32px;
+}
+
+.a:hover{
+    color: red;
+    font-size: 35px;
+
+}
+
+.b{
+    color: black;
+    font-size: 32px;
+}
+
+.b:hover{
+    color: red;
+    font-size: 35px;
+
+}
+
+.c{
+    color: black;
+    font-size: 32px;
+}
+
+.c:hover{
+    color: red;
+    font-size: 35px;
+
+}
+
+
+.A{
+    color: black;
+}
+
+.A:hover{
+    color: red;
+}
+
+.B{
+    color: black;
+}
+
+.B:hover{
+    color: red;
+}
+
+.C{
+    color: black;
+}
+
+.C:hover{
+    color: red;
+}
+
+/* home.html */
+
+.ho{
+    font-size: 50px;
+    text-align: center;
+}
+.pr{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.x{
+   
+    padding: 50px;
+
+   
+}
+
+
+.y{
+   
+    padding: 50px;
+   
+}
+
+.z{
+    
+    padding: 50px;
+    
+}
+
+.m{
+    border-radius: 50%;
+}
+
+.n{
+    border-radius: 50%;
+}
+
+.o{
+    border-radius: 50%;
+}
+
+.Meet{
+    font-size: 40px;
+    text-align: center;
+}
+
+.div1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.pi{
+    font-size: 20px;
+    color: aquamarines;
+    text-align: center;
+}
+
+.sec{
+    background-color: lightgrey;
+}
