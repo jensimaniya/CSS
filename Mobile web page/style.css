@@ -32,11 +32,16 @@ p {
   color: silver;
   padding: 20px;
 }
+.title:hover{
+  color: white;
+}
 .imglogo {
   position: absolute;
   left: 6%;
   top: -17px;
 }
+
+
 
 .headerMenu {
   display: flex;
@@ -45,11 +50,17 @@ p {
   padding: 20px;
 }
 
+
 .menuItem a {
   text-decoration: none;
   font-size: 30px;
   text-transform: uppercase;
   color: silver;
+}
+
+
+.menuItem a:hover{
+  color: white;
 }
 /* header end */
 
@@ -79,6 +90,10 @@ p {
   text-align: center;
   padding-top: 70px;
   text-transform: uppercase;
+}
+
+.title1:hover{
+  font-size: 45px;
 }
 
 .per {
@@ -177,7 +192,14 @@ p {
   text-align: right;
   font-size: 45px;
   padding: 50px 120px 20px 0;
+  color: black;
 }
+
+.heading2:hover{
+  color: #6A0D91;
+  cursor: pointer;
+}
+
 
 .pre {
   text-align: right;
@@ -897,6 +919,13 @@ p {
   cursor: pointer;
 }
 
+.add{
+  color: black;
+}
+
+.add:hover{
+  color: silver;
+}
 
 
 /* footer end */
