@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.d{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* header start */
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading{
+    position: absolute;
+    left: 70px;
+}
+
+.headerMenu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menuItem a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.headerMenu :hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+/* header end */
+
+
+/* baner start */
+.baner{
+    height: 100vh;
+    width: 100%;
+    background: url(./image/baner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 0 0 30px 100px;
+    
+}
+
+.head1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: yellow;
+    padding: 0 0 0 100px;
+}
+
+.per{
+    font-size: 30px;
+    color: aliceblue;
+    padding: 0 0 50px 100px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.btn{
+    border: 2px solid black;
+    position: absolute;
+    left: 20%;
+    background-color: aliceblue;
+    text-decoration: none;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 30px;
+    color: yellow;
+}
+
+
+.btn:hover{
+    border: 2px solid white;
+    background-color: yellow;
+    color: black;
+}
+
+#btn2{
+    left: 60%;
+}
+
+/* baner end */
+
+
+/* section 2 start */
+
+.head{
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+.detail{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.imge{
+    height: 300px;
+    width: 40%;
+}
+
+.pre{
+    height: 300px;
+    width: 30%;
+    text-align: center;
+ 
+
+
+}
+
+.button{
+    border: 1px solid black;
+    background-color: yellow;
+    color: white;
+    text-decoration: none;
+    width: 50%;
+    height: 50px;
+     
+}
+
+.button:hover{
+    border: 2px solid yellow;
+    background-color: white;
+    color: yellow;
+}
+
+/* section 2 end */
+
+
+/* section 3 start */
+.h{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.span{
+    color: red;
+}
+.text{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.divi{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.img1:hover{
+    height: 320px;
+    width: 320px;
+}
+.img2:hover{
+    height: 320px;
+    width: 320px;
+}
+
+.img3:hover{
+    height: 320px;
+    width: 320px;
+}
+
+
+.dive{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.data{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* section 3 end */
+
+/* section 4 start */
+.main{
+    height: 600px;
+    max-width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  
+}
+
+.main h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding : 30px 0 30px 0;
+    height: 200px;
+    width: 100%;
+
+}
+
+.main h1:hover{
+    color: yellow;
+}
+
+.div1{
+    height: 300px;
+    width:300px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.div1:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.div2{
+    height: 300px;
+    width:300px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    text-align: center;
+    padding-top: 50px;
+}
+.div2:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+
+.div3{
+    height: 300px;
+    width:300px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+.div3:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+h2:hover{
+    color: red;
+    font-size: 30px;
+}
+
+
+
+/* section 4 end */
+
+
+/* section 5 start */
+.imges{
+    height: 600px;
+    max-width: 100%;
+    background: url(./image/img\ form.jpg);
+    padding-top: 50px; 
+    position: relative;
+}
+.many{
+    position: relative;
+}
+
+.form{
+    position: relative;
+}
+.name{
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    top: 200%;
+    right: 50%;
+    
+}
+
+.mail{
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    top: 400%;
+    right: 50%;
+}
+
+.phno{
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    top: 900%;
+    right: 70%;
+}
+
+
+
+.div head{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100px;
+    color: red;
+}
+
+/* section 5 end */
