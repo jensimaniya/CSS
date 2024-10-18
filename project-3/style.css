@@ -79,7 +79,7 @@
     color: white;
     position: absolute;
     left: 11%;
-    bottom: 30%;
+    bottom: 20%;
     font-size: 20px;
 }
 
@@ -118,50 +118,52 @@
 
 /* section 1 start */
 
+
+
 .Sec1MainDiv{
-    height: 700px;
+    height: 600px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    gap: 40px;
     position: relative;
-    font-family: sans-serif;
-
 }
-
 
 .sec1div1{
-    height: 400px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
 }
-.head{
-    font-size: 40px;
-    text-transform: uppercase;
-    padding-top: 250px;
+.Sec1Div2{
+    height: 600px;
+    width: 600px;
+}
+
+.headsec1{
+    font-size: 45px;
     color: #f76d37;
+    text-align: center;
+    padding-top: 100px;
 }
 
 .per{
-    font-size: 20px;
-    padding-top: 30px;
+    font-size: 22px;
 }
 
 .img1{
     height: 500px;
     width: 500px;
-    padding-top: 150px;
-    padding-left: 150px;
+    padding-top: 80px;
 }
 
-.ReadMoreBTN{
-    height: 50px;
-    width: 200px;
-    position: absolute;
-    bottom: 15%;
+.BtnReedMore{
+    height: 60px;
+    width: 150px;
     background-color: black;
     color: white;
+    position: absolute;
+    left: 25%;
+    bottom: 20%;
     font-size: 20px;
-    
 }
 
 /* section 1 end */
@@ -194,6 +196,13 @@
    
 }
 
+.container{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
 .image1{
     height: 100%;
     width: 100%;
@@ -208,26 +217,82 @@
     transform: scale(1.2);
 }
 
-.container{
-    width: 250px;
-    height: 250px;
-    border: 5px solid black;
-    overflow: hidden;
-}
+
 
 
 
 .image2{
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
+   background: url(./img/p-2.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   transition: all 1s;
    
+}
+
+.image2:hover{
+    transform: scale(1.2);
 }
 
 .image3{
    
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
+   background: url(./img/p-3.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   transition: all 1s;
    
+}
+.image3:hover{
+    transform: scale(1.2);
+}
+
+.image4{
+   
+    height: 100%;
+    width: 100%;
+   background: url(./img/p-4.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   transition: all 1s;
+   
+}
+.image4:hover{
+    transform: scale(1.2);
+}
+.image5{
+   
+    height: 100%;
+    width: 100%;
+   background: url(./img/p-5.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   transition: all 1s;
+   
+}
+.image5:hover{
+    transform: scale(1.2);
+}
+
+.image6{
+   
+    height: 100%;
+    width: 100%;
+   background: url(./img/p-6.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   transition: all 1s;
+   
+}
+.image6:hover{
+    transform: scale(1.2);
 }
 
 .BTNdiv{
@@ -494,7 +559,7 @@
 
 /* footer strt */
 .footer{
-    height: 500px;
+    height: 400px;
     width: 100%;
     background-color:black;
     margin-top: 50px;
