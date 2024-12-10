@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Protest+Guerrilla&family=Sofadi+One&display=swap");
+.jensi {
+  font-size: 32px;
+  font-weight: 600;
+  color: blueviolet;
+  text-align: left;
+  font-family: "Protest Guerrilla", sans-serif;
+  text-transform: uppercase;
+  line-height: 42px;
+  word-spacing: 5px;
+  text-decoration: underline;
+  text-indent: 100px;
+}
+
+.nidhi {
+  font-size: 32px;
+  font-weight: 600;
+  color: blueviolet;
+  text-align: left;
+  font-family: "Sofadi One", system-ui;
+  text-transform: uppercase;
+  line-height: 42px;
+  word-spacing: 5px;
+  text-decoration: underline;
+  text-indent: 100px;
+}

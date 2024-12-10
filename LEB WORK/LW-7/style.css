@@ -1,0 +1,41 @@
+.demo {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  color: blue;
+  margin: auto;
+}
+
+.demo:hover {
+  background-color: burlywood;
+  cursor: cell;
+  border: 5px dashed red;
+  border-top-left-radius: 20px;
+  transition: 3s;
+  color: blueviolet;
+}
+
+.demo2 {
+  color: green;
+}
+
+.demo2:hover {
+  font-size: 40px;
+  transform: rotate(20deg);
+}
+
+.demo3 {
+  color: red;
+}
+
+.demo3:hover {
+  transform: scale(5, 5);
+}
+
+.demo1 {
+  background-color: palevioletred;
+}
+
+.demo1:hover {
+  transform: skew(10deg, 20deg);
+}

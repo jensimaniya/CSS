@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* header start */
+.header {
+  height: 100px;
+  max-width: 100%;
+  background-color: #125b9a;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.MenuItem {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  list-style: none;
+}
+
+.ListItem a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+}
+
+.logoName {
+  font-size: 40px;
+  font-family: "Outfit", sans-serif;
+  position: absolute;
+  right: 85%;
+}
+.ImgLogo {
+  height: 80px;
+  width: 80px;
+}
+
+/* header end */
+
+/* baner start */
+.baner {
+  background: url(./img/baner\ img.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.banerHeading {
+  font-size: 80px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  padding: 100px 0 50px 700px;
+}
+.banerPre {
+  font-size: 50px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  padding: 0 400px;
+}
+.ReadMoreBTN {
+  height: 70px;
+  width: 180px;
+  font-size: 25px;
+  margin-left: 900px;
+  margin-top: 50px;
+  border: none;
+  font-family: "Outfit", sans-serif;
+}
+
+/* baner end */
+
+/* AboutUs section start */
+
+.MainDivAbout {
+  height: 900px;
+  max-width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.AboutImg {
+  height: 600px;
+  width: 700px;
+  margin-top: 150px;
+}
+.HeadAbout {
+  font-size: 50px;
+  font-family: "Outfit", sans-serif;
+  padding-top: 200px;
+  padding-left: 380px;
+  padding-bottom: 30px;
+}
+
+.Head1About {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.pre1About {
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.icon1 {
+  color: #125b9a;
+  font-size: 30px;
+  padding-left: 380px;
+  padding-top: 20px;
+}
+
+.line1 {
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+}
+.BtnExploreMore {
+  height: 50px;
+  width: 180px;
+  margin-left: 400px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  border: none;
+  background-color: #125b9a;
+  color: aliceblue;
+}
+
+/* AboutUS section end  */
+
+/* section 2 start */
+.Sec2MainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.Sec2Div1 {
+  height: 500px;
+  width: 500px;
+}
+
+.Sec2Div2 {
+  height: 500px;
+  width: 500px;
+}
+
+.Sec2Div3 {
+  height: 500px;
+  width: 500px;
+}
+.image1 {
+  padding-left: 50px;
+}
+
+.image3 {
+  height: 350px;
+  width: 400px;
+  margin-right: 30px;
+}
+
+.head1 {
+  padding-left: 150px;
+  font-size: 40px;
+  font-family: "Outfit", sans-serif;
+}
+.head2 {
+  padding-left: 110px;
+  font-size: 40px;
+  font-family: "Outfit", sans-serif;
+}
+.head3 {
+  padding-left: 120px;
+  font-size: 40px;
+  font-family: "Outfit", sans-serif;
+}
+.pregraph1 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  font-family: "Outfit", sans-serif;
+}
+.pregraph2 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  font-family: "Outfit", sans-serif;
+}
+
+.pregraph3 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  font-family: "Outfit", sans-serif;
+}
+
+/* section 2 end */
+
+.BtnReadMoreSec2 {
+  height: 50px;
+  width: 180px;
+  position: absolute;
+  bottom: -50%;
+  font-size: 25px;
+  background-color: #125b9a;
+  color: aliceblue;
+  border: none;
+}
+
+/* section 3 start */
+
+.Sec3MainDiv {
+  background-image: url(./img/baner3.jpg);
+  height: 70vh;
+  max-width: 100%;
+  margin-top: 400px;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Sec3head {
+  font-size: 40px;
+  padding-top: 150px;
+  font-family: "Outfit", sans-serif;
+  color: #125b9a;
+  text-align: center;
+}
+
+.Sec3pre {
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+.BtnViewAll {
+  height: 50px;
+  width: 180px;
+  margin-left: 150px;
+  margin-top: 50px;
+  font-size: 25px;
+  border: none;
+  background-color: #125b9a;
+  color: aliceblue;
+}
+
+/* section 3 end */
+
+/* section 4 start */
+
+.Sec4MainDiv {
+  background-image: url(./img/baner4.jpg);
+  height: 90vh;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+.Sec4img1 {
+  height: 500px;
+  width: 500px;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.Sec4Head {
+  font-size: 40px;
+  padding-top: 200px;
+  font-family: "Outfit", sans-serif;
+}
+
+.Sec4pre {
+  padding-top: 30px;
+  font-family: "Outfit", sans-serif;
+
+  font-size: 20px;
+}
+
+.Sec4pre1 {
+  padding-top: 30px;
+  font-family: "Outfit", sans-serif;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.BtnSec4 {
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  background-color: #125b9a;
+  color: aliceblue;
+  border: none;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+/* section 4 end */

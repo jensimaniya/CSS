@@ -30,3 +30,41 @@
 }
 
 
+
+.main{
+    background-color: lightgrey;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.main1{
+    background-color: pink;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+.main2{
+    background-color: skyblue;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+
+
+.imge1{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+}
+
+
+
+
