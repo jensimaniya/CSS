@@ -893,7 +893,7 @@
   font-size: 20px;
   background-color: #fccd2a;
   border: none;
-  color: #f1f2f3;
+  color:black;
   position: absolute;
   left: 48%;
 }
@@ -904,7 +904,7 @@
   font-size: 20px;
   background-color: #fccd2a;
   border: none;
-  color: #f1f2f3;
+  color: black;
   position: absolute;
   right: 46%;
 }
@@ -913,7 +913,7 @@
 
 /* footer start */
 .FooterDiv {
-  height: 400px;
+  height: 350px;
   width: 100%;
   background-color: #222831;
   display: flex;
