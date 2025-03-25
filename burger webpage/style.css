@@ -35,7 +35,7 @@
 .headerName:hover {
   color: white;
   cursor: pointer;
-  cursor: pointer;
+  
 
 
 }
@@ -57,9 +57,10 @@
 .MenuItem a {
   text-decoration: none;
   color: #fccd2a;
-  text-transform: uppercase;
-  font-size: 25px;
+  /* text-transform: uppercase; */
+  font-size: 30px;
   align-items: center;
+  
 }
 
 .btnOrderOnline {
@@ -68,10 +69,11 @@
   border-radius: 100px;
   position: absolute;
   right: 5%;
-  top: 50%;
+  top: 43%;
   background-color: #fccd2a;
-  color: #f1f2f3;
+  color: black;
   font-size: 20px;
+  border: none;
 }
 
 .adminicon {
@@ -79,7 +81,7 @@
   font-size: 25px;
   position: absolute;
   right: 55%;
-  top: 60%;
+  top: 55%;
 }
 
 .adminicon:hover {
@@ -91,7 +93,7 @@
   color: #fccd2a;
   font-size: 25px;
   position: absolute;
-  top: 60%;
+  top: 55%;
   right: 52%;
 }
 .carticon:hover {
@@ -103,7 +105,7 @@
   color: #fccd2a;
   font-size: 25px;
   position: absolute;
-  top: 60%;
+  top: 55%;
   right: 49%;
 }
 .serchicon:hover {
@@ -121,7 +123,7 @@
 
 .banerdetail {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   padding: 0 900px 30px 113px;
 }
 
@@ -131,9 +133,10 @@
   border-radius: 100px;
   position: absolute;
   left: 5.5%;
-  top: 50%;
+  top: 55%;
   background-color: #fccd2a;
-  color: #f1f2f3;
+  color: black;
+  border: none;
   font-size: 20px;
 }
 .OrderNowBtn:hover {
@@ -274,11 +277,11 @@
   border-radius: 100px;
   position: absolute;
   left: 45%;
-  bottom: 5%;
+  bottom: 2%;
   background-color: #fccd2a;
   font-size: 20px;
   border: none;
-  color: #f1f2f3;
+  color: black;
 }
 
 .viewAllBtn:hover {
@@ -341,7 +344,8 @@
   background-color: silver;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 140px;
   position: relative;
   padding-top: 50px;
 }
@@ -421,7 +425,8 @@
   background-color: silver;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 140px;
   position: relative;
 }
 
@@ -908,11 +913,17 @@
 
 /* footer start */
 .FooterDiv {
-  height: 500px;
+  height: 400px;
   width: 100%;
   background-color: #222831;
   display: flex;
   justify-content: space-around;
+}
+
+.IconDiv{
+  display: flex;
+  justify-content: center;
+  line-height: 20px;
 }
 
 .contactTitle {
